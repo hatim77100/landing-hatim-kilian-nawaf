@@ -1,15 +1,58 @@
-.font-style {
-  font-family: Arial, Helvetica, sans-serif;
+/* ------------FONTS-------------- */
+
+.font-size {
+  font-size: 1.2rem;
+}
+.font-family {
+  font-family: "Open sans", "Arial", sans-serif;
 }
 
+/* -------------MARGIN--------- */
+
+.ml-auto {
+  margin-left: auto;
+}
+
+.mr-auto {
+  margin-right: auto;
+}
 .m-4 {
   margin: 0;
 }
+/* .ml-60 {
+  margin-left: 15rem;
+} */
+
+/* -------------padding----------- */
+
+.p-2 {
+  padding: 0.6rem 0 0 2rem;
+}
+
+.pr-8 {
+  padding-right: 2rem;
+}
+
+.pt-1 {
+  padding-top: 0.25rem;
+}
+
+/* --------------COLOR-------------- */
 
 .bg-purple {
   height: 60px;
   background-color: purple;
 }
+
+.text-white {
+  color: white;
+}
+
+.text-gray {
+  color: rgb(73, 68, 68);
+}
+
+/* ---------------FLEX------------- */
 
 .flex {
   display: flex;
@@ -20,8 +63,13 @@
   justify-content: space-between;
 }
 
-.p-2 {
-  padding: 0.6rem 0 0 2rem;
+/* ----------------GRID------------ */
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 60px 200px;
+  grid-auto-flow: column;
 }
 
 .text-decoration {
@@ -37,18 +85,18 @@
   display: inline;
 }
 
-.pr-8 {
-    padding-right: 2rem ;
+.w-28 {
+  width: 110rem;
 }
 
-.font-size {
-    font-size: 1.2rem;
+.h-96 {
+  height: 24rem;
 }
 
-.text-white {
-    color: white;
+.block {
+  display: block;
 }
 
-.pt-1 {
-    padding-top: 0.25rem;
-}
+
+
+
