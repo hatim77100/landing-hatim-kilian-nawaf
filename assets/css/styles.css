@@ -1,10 +1,13 @@
 /* ------------FONTS-------------- */
 
-.font-size {
+.text-sm {
   font-size: 1.2rem;
 }
 .font-family {
   font-family: "Open sans", "Arial", sans-serif;
+}
+.text-2xl {
+  font-size: 2rem;
 }
 
 /* -------------MARGIN--------- */
@@ -19,10 +22,24 @@
 .m-4 {
   margin: 0;
 }
-/* .ml-60 {
-  margin-left: 15rem;
-} */
-
+.m-20 {
+  margin: 1rem 5rem 0 5rem;
+}
+.ml-180 {
+  margin-left: 5rem;
+}
+.mr-180 {
+  margin-right: 5rem;
+}
+.mt-30 {
+  margin-top: 30%;
+}
+.mt-4 {
+  margin-top: 1rem;
+}
+.mt-40 {
+  margin-top: 10rem;
+}
 /* -------------padding----------- */
 
 .p-2 {
@@ -52,6 +69,22 @@
   color: rgb(73, 68, 68);
 }
 
+/* -----------background------------- */
+
+.bg-gray {
+  background-color: rgb(236, 232, 227);
+}
+
+/*------------Height AND WIDTH----------------  */
+
+.w-28 {
+  width: 110rem;
+}
+
+.h-96 {
+  height: 24rem;
+}
+
 /* ---------------FLEX------------- */
 
 .flex {
@@ -63,40 +96,91 @@
   justify-content: space-between;
 }
 
+.justify-center {
+  justify-content: center;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
 /* ----------------GRID------------ */
 
 .container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 60px 200px;
-  grid-auto-flow: column;
+  grid-template-rows: 60px 50px;
+  grid-gap: 60px;
 }
+.container-contact {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 20px 100px;
+}
+
+/* -----------------TEXT------------------ */
 
 .text-decoration {
   text-decoration: none;
   text-shadow: 0.05em 0.05em 0.05em black;
 }
 
-.list-style {
-  list-style-type: none;
+.text-center {
+  text-align: center;
 }
-
 .inline {
   display: inline;
 }
 
-.w-28 {
-  width: 110rem;
-}
+/* ----------------STYLE---------------- */
 
-.h-96 {
-  height: 24rem;
+.list-style {
+  list-style-type: none;
 }
 
 .block {
   display: block;
 }
 
+/* ---------------BORDER---------------- */
 
+.rounded {
+  border-radius: 5px 5px 5px 5px;
+}
 
+.shadow-md {
+  box-shadow: 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
 
+.rounded-sm {
+  border: 1px solid rgb(163, 163, 163);
+  border-radius: 5px 5px 5px 5px;
+}
+
+/* ------------POSITION------------------ */
+
+.relative-position {
+  position: relative;
+}
+
+.popsition-absolute {
+  position: absolute;
+}
+
+.inset2-4 {
+  top: 50%;
+  left: 50%;
+}
+
+.contenant {
+  position: relative;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+.translate-x-y-1-2 {
+  transform: translate(-50%, -50%);
+}
+
+.hover:hover {
+  background-color: rgb(212, 221, 218);
+}
