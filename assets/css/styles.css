@@ -62,7 +62,7 @@
     border-width: 10px;
   }
   
-  .border-gray-100 {
+  .border-red-100 {
     border-color: red;
   }
 
@@ -70,7 +70,13 @@
     color: red;
   }
 
-  
+  .bg-gray {
+    height: 80px;
+    width: auto;
+    background-color: rgb(211,211,211);
+    
+  }
+
   .w-40 {
     width: 10rem;
   }
@@ -82,3 +88,4 @@
   .mr-4 {
     margin-right: 1rem;
   }
+  
