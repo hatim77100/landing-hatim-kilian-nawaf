@@ -4,7 +4,7 @@
   font-size: 1.2rem;
 }
 .font-family {
-  font-family: "Open sans", "Arial", sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .text-2xl {
   font-size: 2rem;
@@ -58,6 +58,9 @@
 .ml-18 {
   margin-left: 4.5rem;
 }
+.ml-40 {
+  margin-left: 10rem;
+}
 .ml-60 {
   margin-left: 15rem;
 }
@@ -66,6 +69,9 @@
 }
 .ml-100 {
   margin-left: 25rem;
+}
+.mb-6 {
+  margin-bottom: 1.5rem;
 }
 /* -------------padding----------- */
 
@@ -114,8 +120,16 @@
 .h-96 {
   height: 24rem;
 }
-
-/* ---------------FLEX------------- */
+.w-3	{
+  width: 0.75rem; 
+}
+.fa-linkedin-square::before {
+  font-size: 2rem;
+}
+.fa-facebook-square:before {
+  font-size: 2rem;
+}
+  /* ---------------FLEX------------- */
 
 .flex {
   display: flex;
@@ -130,41 +144,36 @@
   justify-content: center;
 }
 
+.justify-end {
+  justify-content: flex-end;
+}
 .justify-around {
   justify-content: space-around;
 }
 .justify-items-end {
   justify-items: end;
 }
-.order-1 {
-  display: flex;
-  order: 1;
-  justify-content: flex-start;
-  flex-direction: column;
-}
-.order-2 {
-  display: flex;
-  order: 2;
-  justify-content: center;
-  flex-direction: column;
-}
-/* .order-3 {
-  display: flex;
-  order: 3;
-  justify-content: flex-end;
-} */
 .justify-start {
   justify-content: flex-start;
 }
-.justify-center {
-  justify-content: center;
+.order-1	{
+  order: 1;
 }
-.justify-end {
-  justify-content: flex-end;
+.order-2	{
+  order: 2;
+}.order-3	{
+  order: 3;
+  align-self: flex-end;
+}
+.order-0{
+  order: 0;
+  align-self: center;
+}
+.justify-around	{
+  justify-content: space-around;
 }
 
-
-  /* ----------------GRID------------ */
+/* ----------------GRID------------ */
 
 .grid-cols-1 {
   display: grid;
@@ -191,9 +200,18 @@
 }
 .grid-cols-2 {
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(2, 1fr);
 }
 
+.flex-col {
+  flex-direction: column;
+}
+.items-center {
+  align-items: center;
+}
+.grid-cols-3-5px {
+  grid-template-columns: 1fr 5px 1fr;
+}
 /* -----------------TEXT------------------ */
 
 .text-decoration {
@@ -231,7 +249,13 @@
 .drop-shadow-md {
   filter: drop-shadow(0 4px 3px rgb(0 0 0 / 0.07));
 }
-
+.border-right {
+  border-right: 3px solid rgb(59, 57, 57);
+}
+.border-r-2	{
+border-right: 10px solid rgb(236, 232, 227);
+height: 360px;
+}
 /* ------------POSITION------------------ */
 
 .relative-position {
