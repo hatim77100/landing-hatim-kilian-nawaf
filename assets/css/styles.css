@@ -58,7 +58,7 @@
 .ml-18 {
   margin-left: 4.5rem;
 }
-.ml-40 {
+.ml-42 {
   margin-left: 10rem;
 }
 .ml-60 {
@@ -128,6 +128,12 @@
 }
 .fa-facebook-square:before {
   font-size: 2rem;
+}
+.w-96	 {
+  width: 32rem; /* 384px */
+}
+.h-auto {
+  height: auto;
 }
   /* ---------------FLEX------------- */
 
