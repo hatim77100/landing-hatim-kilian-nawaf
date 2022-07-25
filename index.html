@@ -9,33 +9,40 @@
     <link rel="stylesheet" href="./js/main.js">
     <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.css">
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-    <title>Full stuck</title>
+    <link rel="stylesheet" href="./assets/css/queries.css">
+    <title>Full stack</title>
 </head>
 
 <body class="m-0 font-family overflow-x-hidden">
-    <header class="flex justify-content bg-purple">
+    <header
+        class="flex flex-row justify-between justify-items-center bg-purple h-16 sm-h-20 sm-flex sm-justify-around sm-flex-row ">
         <div>
-            <img class="p-2" src="./img/logo.png" height="auto" width="40px" alt="logo">
+            <img class="p-2 sm-pb-4 sm-h-auto sm-w-20" src="./img/logo.png" height="auto" width="40px" alt="logo">
         </div>
-        <nav>
-            <ul class="pr-8 pt-1">
-                <li class="list-style inline"> <a class="text-decoration pr-8 text-sm text-white" href="#à propos">À
-                        PROPOS</a>
-                </li>
-                <li class="list-style inline"> <a class="text-decoration pr-8 text-sm text-white"
-                        href="#Projets-web">PROJETS
-                        WEB</a> </li>
-                <li class="list-style inline"> <a class="text-decoration pr-8 text-sm text-white" href="">PARCOURS</a>
-                </li>
-                <li class="list-style inline"> <a class="text-decoration pr-8 text-sm text-white"
-                        href="./pages/contact/index.html">CONTACT</a>
-                </li>
-            </ul>
-        </nav>
+        <div class="sm-flex sm-flex-row	">
+            <nav>
+                <ul class="pr-8 pt-1">
+                    <li class="list-style inline sm-inline"> <a class="text-decoration pr-8 text-sm text-white"
+                            href="#à propos">À
+                            PROPOS</a>
+                    </li>
+                    <li class="list-style inline sm-inline"> <a class="text-decoration pr-8 text-sm text-white"
+                            href="#Projets-web">PROJETS
+                            WEB</a> </li>
+                    <li class="list-style inline sm-inline"> <a class="text-decoration pr-8 text-sm text-white"
+                            href="">PARCOURS</a>
+                    </li>
+                    <li class="list-style inline sm-inline"> <a class="text-decoration pr-8 text-sm text-white"
+                            href="./pages/contact/index.html">CONTACT</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <div class="contenant">
-        <img src="./img/portefolio.png" alt="portefolio" class="block ml-auto mr-auto w-28 h-96">
+    <div class="relative-position text-center text-white">
+        <img src="./img/portefolio.png" alt="portefolio"
+            class="block ml-auto mr-auto w-28 h-96 sm-w-10-12 sm-ml-8 sm-mr-8 sm-h-96 ">
         <div>
             <h1 class="text-center popsition-absolute inset2-4 translate-x-y-1-2 text-decoration text-sm">Titre h1
             </h1>
@@ -108,7 +115,7 @@
         <a id="Projets-web">Projets web</a>
     </div>
     <div class="ml-20 mr-20 rounded-sm mt-4"></div>
-    <section class="container1 grid-cols-3 gap-5 ml-60 mt-4 mb-6">
+    <section class="grid-cols-3 gap-5 ml-60 mt-4 mb-6">
         <div>
             <h2 class="ml-26 text-sm text-gray">Galerie</h2>
             <img class="rounded-sm " src="./img/img/galerie.jpg" alt="galerie" height="auto" width="300px">
@@ -133,7 +140,8 @@
     <section class=" grid-cols-3-5px gap-15 mt-4">
         <div class="flex flex-col items-center ">
             <h2 class="text-gray">Titre7</h2>
-            <p class="rounded bg-gray shadow-md w-96 h-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
+            <p class="rounded bg-gray shadow-md w-96 h-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Nam
                 facilis,
                 veritatis obcaecati
                 laborum quaerat

@@ -34,17 +34,20 @@
 .mr-20 {
   margin-right: 5rem;
 }
-.mt-30 {
-  margin-top: 30%;
-}
 .mt-4 {
   margin-top: 1rem;
+}
+.mt-16 {
+  margin-top: 4rem;
 }
 .mt-40 {
   margin-top: 10rem;
 }
-.mt-16 {
-  margin-top: 4rem;
+.ml-16 {
+  margin-left: 4rem;
+}
+.ml-18 {
+  margin-left: 4.5rem;
 }
 .ml-32 {
   margin-left: 8rem;
@@ -55,24 +58,13 @@
 .ml-26 {
   margin-left: 6.5rem;
 }
-.ml-18 {
-  margin-left: 4.5rem;
-}
-.ml-42 {
-  margin-left: 10rem;
-}
 .ml-60 {
   margin-left: 15rem;
-}
-.ml-16 {
-  margin-left: 4rem;
-}
-.ml-100 {
-  margin-left: 25rem;
 }
 .mb-6 {
   margin-bottom: 1.5rem;
 }
+
 /* -------------padding----------- */
 
 .p-2 {
@@ -90,12 +82,7 @@
   padding-top: 5rem;
 }
 
-/* --------------COLOR-------------- */
-
-.bg-purple {
-  height: 60px;
-  background-color: purple;
-}
+/* --------------TEXT COLOR-------------- */
 
 .text-white {
   color: white;
@@ -105,7 +92,11 @@
   color: rgb(73, 68, 68);
 }
 
-/* -----------background------------- */
+/* -----------BACKGROUND------------- */
+
+.bg-purple {
+  background-color: purple;
+}
 
 .bg-gray {
   background-color: rgb(236, 232, 227);
@@ -120,36 +111,30 @@
 .h-96 {
   height: 24rem;
 }
-.w-3	{
-  width: 0.75rem; 
+.w-3 {
+  width: 0.75rem;
 }
-.fa-linkedin-square::before {
-  font-size: 2rem;
-}
-.fa-facebook-square:before {
-  font-size: 2rem;
-}
-.w-96	 {
+.w-96 {
   width: 32rem; /* 384px */
 }
 .h-auto {
   height: auto;
 }
-  /* ---------------FLEX------------- */
+.h-16 {
+  height: 4rem; /* 64px */
+}
+
+/* ---------------FLEX------------- */
 
 .flex {
   display: flex;
 }
-
-.justify-content {
-  justify-content: flex-end;
+.justify-between {
   justify-content: space-between;
 }
-
 .justify-center {
   justify-content: center;
 }
-
 .justify-end {
   justify-content: flex-end;
 }
@@ -162,21 +147,14 @@
 .justify-start {
   justify-content: flex-start;
 }
-.order-1	{
-  order: 1;
-}
-.order-2	{
-  order: 2;
-}.order-3	{
-  order: 3;
-  align-self: flex-end;
-}
-.order-0{
-  order: 0;
-  align-self: center;
-}
-.justify-around	{
+.justify-around {
   justify-content: space-around;
+}
+.justify-items-center {
+  justify-items: center;
+}
+.flex-row {
+  flex-direction: row;
 }
 
 /* ----------------GRID------------ */
@@ -208,7 +186,6 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
-
 .flex-col {
   flex-direction: column;
 }
@@ -218,16 +195,19 @@
 .grid-cols-3-5px {
   grid-template-columns: 1fr 5px 1fr;
 }
+
 /* -----------------TEXT------------------ */
 
 .text-decoration {
   text-decoration: none;
   text-shadow: 0.05em 0.05em 0.05em black;
 }
-
 .text-center {
   text-align: center;
 }
+
+/* ----------------BLOCK------------------ */
+
 .inline {
   display: inline;
 }
@@ -258,33 +238,38 @@
 .border-right {
   border-right: 3px solid rgb(59, 57, 57);
 }
-.border-r-2	{
-border-right: 10px solid rgb(236, 232, 227);
-height: 360px;
+.border-r-2 {
+  border-right: 10px solid rgb(236, 232, 227);
+  height: 360px;
 }
-/* ------------POSITION------------------ */
 
+/* ------------POSITION titre sur photo------------------ */
+
+.fixed {
+  position: fixed;
+}
 .relative-position {
   position: relative;
 }
-
 .popsition-absolute {
   position: absolute;
 }
-
 .inset2-4 {
   top: 50%;
   left: 50%;
-}
-
-.contenant {
-  position: relative;
-  text-align: center;
-  color: rgb(255, 255, 255);
 }
 .translate-x-y-1-2 {
   transform: translate(-50%, -50%);
 }
 .overflow-x-hidden {
   overflow-x: hidden;
+}
+
+/* -----------Les icons--------- */
+
+.fa-linkedin-square::before {
+  font-size: 2rem;
+}
+.fa-facebook-square:before {
+  font-size: 2rem;
 }
