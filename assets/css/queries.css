@@ -1,8 +1,19 @@
 /* ----Responsive Design----- */
 
-@media screen and (max-width: 1280px) {
-  /* ---------Flex------------------ */
+@media screen and (max-width: 320px) {
 
+  /*---------------FONTS-------------*/
+
+  .sm-text-xs {
+    font-size: 0.75rem; /* 12px */
+    line-height: 1rem; /* 16px */
+  }
+  /* #desktop {
+    display: none;
+  } */
+
+  /* ---------Flex------------------ */
+  
   .sm-flex {
     display: flex;
   }
@@ -24,7 +35,6 @@
   .sm-justify-start {
     justify-content: flex-start;
   }
-
   .sm-justify-around {
     justify-content: space-around;
   }
@@ -32,16 +42,19 @@
     justify-items: center;
   }
   .sm-flex-grow {
-    flex-grow:initial;
+    flex-grow: initial;
   }
-  .sm-flex-row	{
+  .sm-flex-row {
     flex-direction: row;
   }
-  
+  .sm-justify-evenly {
+    justify-content: space-evenly;
+  }
+
   /* ---------Background-------------- */
 
-  .sm-bg-red {
-    background-color: red;
+  .sm-bg-purple {
+    background-color: purple;
   }
 
   /*---------Height and Width----------*/
@@ -52,14 +65,18 @@
   .sm-h-96 {
     height: 30rem;
   }
-  .sm-h-20	{
+  .sm-h-20 {
     height: 5rem; /* 64px */
   }
   .sm-h-auto {
-    height: auto;
+    height: 5vh;
   }
   .sm-w-20 {
-    width: 4rem;
+    width: 20vw;
+  }
+
+  .sm-w-full {
+    width: 100%;
   }
 
   /* --------------Marging------------ */
@@ -72,15 +89,9 @@
   }
 
   /* --------------Padding------------- */
-  
-  .sm-pb-4 {
-    padding-bottom: 4rem;
-  }
 
-  /*---------------DISPLAY-------------*/
-  
-  .sm-inline {
-    display: inline;
+  .sm-pt-4 {
+    padding-top: 1.5rem;
   }
 
 }
