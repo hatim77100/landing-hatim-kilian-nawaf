@@ -5,79 +5,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=0.86, maximum-scale=5.0, minimum-scale=0.86">
     <link rel="stylesheet" href="./assets/css/styles.css">
-    <link rel="stylesheet" href="./js/main.js">
     <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.css">
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="./assets/css/queries.css">
+    <script src="./js/main.js"></script>
     <title>Full stack</title>
 </head>
 
 <body class="m-0 font-verdana overflow-x-hidden">
-    <!-- <header id="mobile" class="flex flex-row w-full">
-        <div>
-            <img class="p-2 sm-pt-4 sm-h-auto sm-w-20" src="./img/logo.png" height="auto" width="40px" alt="logo">
+    <header class=" grid grid-cols-2 bg-purple h-16 w-full sm-h-20">
+        <div class="flex flex-row content-center sm-justify-center sm-justify-items-center p-2">
+            <img class="" src="./img/logo.png" height="auto" width="50px" alt="logo">
         </div>
-        <div class="sm-flex sm-flex-row	sm-justify-evenly">
-            <nav class="">
-                <ul class="pr-8 pt-1">
-                    <li class="list-style inline "> <a class="text-decoration pr-8 text-sm text-white"
-                            href="#à propos">À
-                            PROPOS</a>
-                    </li>
-                    <li class="list-style inline "> <a class="text-decoration pr-8 text-sm text-white"
-                            href="#Projets-web">PROJETS
-                            WEB</a> </li>
-                    <li class="list-style inline "> <a class="text-decoration pr-8 text-sm text-white"
-                            href="">PARCOURS</a>
-                    </li>
-                    <li class="list-style inline "> <a class="text-decoration pr-8 text-sm text-white"
-                            href="./pages/contact/index.html">CONTACT</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-    </header>  -->
-    <header class=" grid grid-cols-2  bg-purple h-16 w-full sm-justify-start sm-w-full ">
-        <div class="sm-flex sm-items-center sm-justify-center flex flex-row  content-center sm-justify-start p-2">
-            <img class="sm-pt-4 sm-h-auto sm-w-20" src="./img/logo.png" height="auto" width="40px" alt="logo">
-        </div>
-        <!-- <div>
-            <nav>
-                <ul class="flex sm-flex sm-flex-row sm-justify-center list-none uppercase">
-                    <li class="">
-                        <a class="text-decoration text-white pr-8 text-sm sm-text-xs" href="#à propos">
-                            Accueil
-                        </a>
-                    </li>
-                    <li class="">
-                        <a class="text-decoration text-white pr-8 text-sm sm-text-xs" href="#Projets-web">
-                            Projets
-                        </a>
-                    </li>
-                    <li class="">
-                        <a class="text-decoration text-white pr-8 text-sm sm-text-xs" href="">
-                            Parcours
-                        </a>
-                    </li>
-                    <li class="">
-                        <a class="text-decoration text-white pr-8 text-sm sm-text-xs" href="./pages/contact/index.html">
-                            Contact
-                        </a>
-                    </li>
-            </nav>
-        </div>  -->
         <div class="flex items-center justify-end sm-items-center sm-justify-end">
             <nav class="">
                 <ul class="pr-8 sm-flex sm-flex-row flex flex-row list-none uppercase">
-                    <li> <a class="text-decoration pr-8 text-sm text-white" href="#à propos">À
+                    <li> <a class="text-decoration pr-8 text-sm text-white sm-text-xs" href="#à propos">À
                             propos</a>
                     </li>
-                    <li> <a class="text-decoration pr-8 text-sm text-white" href="#Projets-web">Projets
+                    <li> <a class="text-decoration pr-8 text-sm text-white sm-text-xs" href="#Projets-web">Projets
                             web</a> </li>
-                    <li> <a class="text-decoration pr-8 text-sm text-white" href="">Parcours</a>
+                    <li> <a class="text-decoration pr-8 text-sm text-white sm-text-xs" href="">Parcours</a>
                     </li>
-                    <li> <a class="text-decoration pr-8 text-sm text-white"
+                    <li> <a class="text-decoration pr-8 text-sm text-white sm-text-xs"
                             href="./pages/contact/index.html">Contact</a>
                     </li>
                 </ul>
@@ -86,17 +38,17 @@
     </header>
 
     <div class="relative-position text-center text-white sm-ml-8 sm-mr-8 sm-h-96">
-        <img src="./img/portefolio.png" alt="portefolio" class="block ml-auto mr-auto w-28 h-96 sm-w-10-12 ">
+        <img src="./img/portefolio.png" alt="portefolio" class="block ml-auto mr-auto w-11-12 h-80 sm-h-60">
         <div>
             <h1 class="text-center popsition-absolute inset2-4 translate-x-y-1-2 text-decoration text-sm">Titre h1
             </h1>
         </div>
     </div>
 
-    <section class="grid grid-cols-3 gap-15 grid-rows-2 m-20">
-        <div class="text-center bg-gray rounded shadow-md">
-            <h2 class="text-gray flex justify-center flex justify-center" id="titre">Titre 1</h2>
-            <p class="text-center bg-gray rounded shadow-md">Lorem ipsum, dolor sit amet consectetur adipisicing
+    <section class="grid grid-cols-3 gap-15 grid-rows-2 m-20 sm-flex sm-flex-col">
+        <div class=" bg-gray rounded shadow-md flex flex-col items-center">
+            <h2 class="text-gray" id="titre">Titre 1</h2>
+            <p class="text-center bg-gray rounded ">Lorem ipsum, dolor sit amet consectetur adipisicing
                 elit.
                 Architecto deleniti ipsam eaque cupiditate,
                 dolor voluptate ad perspiciatis voluptatibus! Quibusdam qui doloremque odio soluta quae labore
@@ -104,18 +56,18 @@
                 natus ad repudiandae veritatis?</p>
 
         </div>
-        <div class=" text-center bg-gray rounded shadow-md">
-            <h2 class="text-gray flex justify-center" id="titre">Titre 2</h2>
-            <p class="text-center bg-gray rounded shadow-md">Lorem ipsum dolor sit, amet consectetur adipisicing
+        <div class="bg-gray rounded shadow-md flex flex-col items-center">
+            <h2 class="text-gray" id="titre">Titre 2</h2>
+            <p class="text-center bg-gray rounded">Lorem ipsum dolor sit, amet consectetur adipisicing
                 elit.
                 Hic ducimus nesciunt repellendus fugit cum
                 similique voluptas facere nam? Maxime alias perferendis similique praesentium hic nihil doloremque
                 ut
                 minus aut doloribus!</p>
         </div>
-        <div class="text-center bg-gray rounded shadow-md">
-            <h2 class="text-gray flex justify-center" id="titre">Titre 3</h2>
-            <p class="text-center bg-gray rounded shadow-md">Lorem ipsum dolor sit amet consectetur adipisicing
+        <div class="bg-gray rounded shadow-md flex flex-col items-center">
+            <h2 class="text-gray" id="titre">Titre 3</h2>
+            <p class="text-center bg-gray rounded">Lorem ipsum dolor sit amet consectetur adipisicing
                 elit.
                 Qui, quod voluptas! Aliquid quos perferendis
                 asperiores quis repellendus molestias eaque esse ipsam saepe magni debitis est commodi, fugiat nulla
@@ -125,28 +77,28 @@
 
     </section>
 
-    <section class="grid grid-cols-3 gap-15 grid-rows-2 m-20">
-        <div class="text-center bg-gray rounded shadow-md">
-            <h2 class="text-gray flex justify-center" id="titre">Titre 4</h2>
-            <p class="text-center bg-gray rounded shadow-md">Lorem, ipsum dolor sit amet consectetur adipisicing
+    <section class="grid grid-cols-3 gap-15 grid-rows-2 m-20 sm-flex sm-flex-col ">
+        <div class="bg-gray rounded shadow-md flex flex-col items-center sm-mt-12">
+            <h2 class="text-gray" id="titre">Titre 4</h2>
+            <p class="text-center bg-gray rounded">Lorem, ipsum dolor sit amet consectetur adipisicing
                 elit.
                 Nobis eum reiciendis modi explicabo quas rem
                 aliquam facere neque excepturi id quo assumenda, ab blanditiis deleniti? At odio repellat possimus
                 unde.
                 aqualim surim gucgui hiohiou.
         </div>
-        <div class="text-center bg-gray rounded shadow-md">
-            <h2 class="text-gray flex justify-center" id="titre">Titre 5</h2>
-            <p class="text-center bg-gray rounded shadow-md">Lorem, ipsum dolor sit amet consectetur adipisicing
+        <div class="bg-gray rounded shadow-md flex flex-col items-center">
+            <h2 class="text-gray" id="titre">Titre 5</h2>
+            <p class="text-center bg-gray rounded">Lorem, ipsum dolor sit amet consectetur adipisicing
                 elit.
                 A, omnis minima. Repellat dolorum debitis
                 consequuntur accusantium ipsa repellendus ea assumenda dolore iure quod! Explicabo corrupti dolore,
                 vero
                 illo amet nostrum.</p>
         </div>
-        <div class="text-center bg-gray rounded shadow-md">
-            <h2 class="text-gray flex justify-center" id="titre">Titre 6</h2>
-            <p class="text-center bg-gray rounded shadow-md">Lorem ipsum dolor sit amet consectetur adipisicing
+        <div class="bg-gray rounded shadow-md flex flex-col items-center sm-mb-4">
+            <h2 class="text-gray" id="titre">Titre 6</h2>
+            <p class="text-center bg-gray rounded">Lorem ipsum dolor sit amet consectetur adipisicing
                 elit.
                 Nemo nulla libero modi, unde cum consequatur
                 sunt at vero adipisci pariatur eveniet necessitatibus. Autem placeat fugiat praesentium
@@ -159,18 +111,19 @@
         <a id="Projets-web">Projets web</a>
     </div>
     <div class="ml-20 mr-20 rounded-sm mt-4"></div>
-    <section class="grid grid-cols-3 gap-5 ml-60 mt-4 mb-6">
-        <div>
-            <h2 class="ml-26 text-sm text-gray">Galerie</h2>
+    <section class="grid grid-cols-3 gap-5 flex flex-row justify-center items-center sm-flex sm-flex-col">
+        <!-- ml-60 mt-4 mb-6 -->
+        <div class="flex flex-col justify-center items-center">
+            <h2 class="text-sm text-gray">Galerie</h2>
             <img class="rounded-sm " src="./img/img/galerie.jpg" alt="galerie" height="auto" width="300px">
         </div>
-        <div>
-            <h2 class="ml-16 text-sm text-gray">Agence de voyage</h2>
+        <div class="flex flex-col justify-center items-center">
+            <h2 class="text-sm text-gray">Agence de voyage</h2>
             <img class="rounded-sm " src="./img/img/agence de voyage.jpg" alt="agence de voyage" height="auto"
                 width="300px">
         </div>
-        <div>
-            <h2 class="ml-18 text-sm text-gray">Environnement</h2>
+        <div class="flex flex-col justify-center items-center">
+            <h2 class="text-sm text-gray">Environnement</h2>
             <img class="rounded-sm" src="./img/img/environnement.jpg" alt="environnement" height="auto" width="300px">
         </div>
     </section>
@@ -181,10 +134,11 @@
     <div class="ml-20 mr-20 rounded-sm mt-4"></div>
 
 
-    <section class=" grid grid-cols-3-5px gap-15 mt-4">
+    <section class=" grid grid-cols-3-5px gap-15 mt-4 sm-flex sm-flex-col">
+        
         <div class="flex flex-col items-center ">
             <h2 class="text-gray">Titre7</h2>
-            <p class="rounded bg-gray shadow-md w-96 h-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            <p class="rounded bg-gray shadow-md w-96 h-auto sm-h-60 sm-w-20">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Nam
                 facilis,
                 veritatis obcaecati
@@ -211,7 +165,7 @@
 
         <div class="flex flex-col items-center">
             <h2 class="text-gray ">Notre équipe</h2>
-            <img class="rounded shadow-md" src=" ./img/equipe.jpg" alt="web" height="300" width="600">
+            <img class="rounded shadow-md" src=" ./img/equipe.jpg" alt="web" height="50%" width="80%">
         </div>
     </section>
 

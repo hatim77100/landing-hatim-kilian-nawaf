@@ -130,12 +130,12 @@
 
 /*------------HEIGHT AND WIDTH----------------  */
 
-.w-28 {
-  width: 110rem;
+.w-11-12 {
+  width: 91.666667%;
 }
 
-.h-96 {
-  height: 24rem;
+.h-80 {
+  height: 20rem;
 }
 
 .w-3 {
@@ -166,6 +166,10 @@
 
 .flex {
   display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
 }
 
 .flex-row {
@@ -210,6 +214,10 @@
 
 .items-center	{
   align-items: center;
+}
+
+.flex-wrap	{
+  flex-wrap: wrap;
 }
 
 /* ----------------GRID------------ */
