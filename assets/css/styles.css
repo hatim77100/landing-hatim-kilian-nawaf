@@ -111,21 +111,21 @@
 /* --------------TEXT COLOR-------------- */
 
 .text-white {
-  color: white;
+  color: #ffffff;
 }
 
 .text-gray {
-  color: rgb(73, 68, 68);
+  color: #494444;
 }
 
 /* -----------BACKGROUND------------- */
 
 .bg-purple {
-  background-color: purple;
+  background-color: #800080;
 }
 
 .bg-gray {
-  background-color: rgb(236, 232, 227);
+  background-color: #ece8e3;
 }
 
 /*------------HEIGHT AND WIDTH----------------  */
