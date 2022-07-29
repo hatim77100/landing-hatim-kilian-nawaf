@@ -1,0 +1,353 @@
+/* ------------FONTS-------------- */
+.font-verdana {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.text-sm {
+  font-size: 1.2rem;
+  line-height: 1.25rem; /* 20px */
+}
+
+.text-2xl {
+  font-size: 2rem;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+/* -------------MARGIN--------- */
+
+.m-0 {
+  margin: 0;
+}
+
+.m-5 {
+  margin: 3rem auto;
+}
+
+.m-20 {
+  margin: 1rem 5rem 0 5rem;
+}
+
+.mr-auto {
+  margin-right: auto;
+}
+
+.mr-20 {
+  margin-right: 5rem;
+}
+
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.mt-16 {
+  margin-top: 4rem;
+}
+
+.mt-40 {
+  margin-top: 10rem;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+.ml-12 {
+  margin-left: 3rem;
+}
+
+.ml-16 {
+  margin-left: 4rem;
+}
+
+.ml-18 {
+  margin-left: 4.5rem;
+}
+
+.ml-20 {
+  margin-left: 5rem;
+}
+
+.ml-32 {
+  margin-left: 8rem;
+}
+
+.ml-26 {
+  margin-left: 6.5rem;
+}
+
+.ml-60 {
+  margin-left: 15rem;
+}
+
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+
+.sm-px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+/* -------------padding----------- */
+
+.p-2 {
+  padding: 0.5rem 0.5rem 0.5rem 2rem;
+}
+
+.pr-8 {
+  padding-right: 2rem;
+}
+
+.pt-1 {
+  padding-top: 0.25rem;
+}
+.pt-40 {
+  padding-top: 5rem;
+}
+
+/* --------------TEXT COLOR-------------- */
+
+.text-white {
+  color: #ffffff;
+}
+
+.text-gray {
+  color: #494444;
+}
+
+/* -----------BACKGROUND------------- */
+
+.bg-purple {
+  background-color: #800080;
+}
+
+.bg-gray {
+  background-color: #ece8e3;
+}
+
+/*------------HEIGHT AND WIDTH----------------  */
+
+.w-11-12 {
+  width: 91.666667%;
+}
+
+.h-80 {
+  height: 20rem;
+}
+
+.w-3 {
+  width: 0.75rem;
+}
+
+.w-96 {
+  width: 32rem; /* 384px */
+}
+
+.w-full {
+  width: 100%;
+}
+
+.h-16 {
+  height: 4rem; /* 64px */
+}
+
+.h-28 {
+  height: 7rem; /* 64px */
+}
+
+.h-auto {
+  height: auto;
+}
+
+/* ---------------FLEX------------- */
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+.justify-items-end {
+  justify-items: end;
+}
+
+.justify-start {
+  justify-content: flex-start;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+.justify-items-center {
+  justify-items: center;
+}
+
+.content-center	{
+  align-content: center;
+}
+
+.items-center	{
+  align-items: center;
+}
+
+.flex-wrap	{
+  flex-wrap: wrap;
+}
+
+/* ----------------GRID------------ */
+
+.grid {
+  display: grid;
+}
+
+.grid-cols-1 {
+  grid-template-columns: 1fr;
+}
+
+.grid-cols-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.gap-15 {
+  gap: 60px;
+}
+
+.grid-rows-2 {
+  grid-template-rows: 60px 50px;
+}
+
+.grid-rows-40px-300px {
+  grid-template-rows: 40px 300px;
+}
+
+.gap-5 {
+  gap: 20px;
+}
+
+.grid-cols-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.grid-cols-3-5px {
+  grid-template-columns: 1fr 5px 1fr;
+}
+
+/* -----------------TEXT------------------ */
+
+.text-decoration {
+  text-decoration: none;
+  text-shadow: 0.05em 0.05em 0.05em black;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* ----------------BLOCK------------------ */
+
+.inline {
+  display: inline;
+}
+
+/* ----------------STYLE---------------- */
+
+.list-none {
+  list-style-type: none;
+}
+
+/* ---------------BORDER-SHADOW---------------- */
+
+.rounded {
+  border-radius: 5px 5px 5px 5px;
+}
+
+.shadow-md {
+  box-shadow: 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+
+.rounded-sm {
+  border: 1px solid rgb(163, 163, 163);
+  border-radius: 5px 5px 5px 5px;
+}
+
+.drop-shadow-md {
+  filter: drop-shadow(0 4px 3px rgb(0 0 0 / 0.07));
+}
+
+.border-right {
+  border-right: 3px solid rgb(59, 57, 57);
+}
+
+.border-r-2 {
+  border-right: 10px solid rgb(236, 232, 227);
+  height: 360px;
+}
+
+/* ------------POSITION titre sur photo------------------ */
+
+.relative-position {
+  position: relative;
+}
+
+.popsition-absolute {
+  position: absolute;
+}
+
+.inset2-4 {
+  top: 50%;
+  left: 50%;
+}
+
+.translate-x-y-1-2 {
+  transform: translate(-50%, -50%);
+}
+
+/* -----------Les icons--------- */
+
+.fa-linkedin-square::before {
+  font-size: 2rem;
+}
+
+.fa-facebook-square:before {
+  font-size: 2rem;
+}
+
+/* -------------Overflow---------- */
+
+.overflow-x-hidden {
+  overflow-x: hidden;
+}
