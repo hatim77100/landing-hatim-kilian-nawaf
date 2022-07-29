@@ -17,15 +17,17 @@
 }
 
 /* -------------MARGIN--------- */
-
-.mt-auto	{
+  .mt-auto	{
   margin-top: auto;
-}
+} 
 
 .m-0 {
   margin: 0;
 }
 
+/* .mb-28 {
+ padding-bottom: 7rem;
+} */
 .m-5 {
   margin: 3rem auto;
 }
