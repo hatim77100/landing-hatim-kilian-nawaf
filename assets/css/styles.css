@@ -18,6 +18,10 @@
 
 /* -------------MARGIN--------- */
 
+.mt-auto	{
+  margin-top: auto;
+}
+
 .m-0 {
   margin: 0;
 }
@@ -160,6 +164,10 @@
 
 .h-auto {
   height: auto;
+}
+
+.min-h-screen	{
+  min-height: 100vh;
 }
 
 /* ---------------FLEX------------- */
@@ -323,7 +331,7 @@
   position: relative;
 }
 
-.popsition-absolute {
+.position-absolute {
   position: absolute;
 }
 
@@ -351,3 +359,33 @@
 .overflow-x-hidden {
   overflow-x: hidden;
 }
+
+ .absolute	{
+  position: absolute;
+}
+
+.relative	{
+  position: relative;
+}
+.b-0{
+bottom: 0;
+left: 0;
+right: 0;
+}
+
+/* .display-table{
+  display : table;
+}
+
+/* .display-row {
+	display : table-row; 
+}*/
+
+.display-block {
+  display: block;
+}
+
+.sticky{
+  position: sticky;
+}
+
