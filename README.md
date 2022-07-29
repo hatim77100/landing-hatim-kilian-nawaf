@@ -1,6 +1,6 @@
 # Project portfolio
 
-sur la base d'un wireframe on'a réalisé un projet de portfolio.
+Based on a wireframe we made a portfolio project.
 
 ## Color Reference
 
@@ -13,12 +13,8 @@ sur la base d'un wireframe on'a réalisé un projet de portfolio.
 |                   |                   |
 
 ## 🚀 About Me
+
 I'm a full stack developer...
-
-## Authors
-
-- Hatim
-- Killian 
 
 ## Authors
 
