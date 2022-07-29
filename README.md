@@ -12,7 +12,7 @@ Based on a wireframe we made a portfolio project.
 | gray              |    ![#ece8e3]     |
 |                   |                   |
 
-## 🚀 About Me
+## 🚀 About me
 
 I'm a full stack developer...
 
@@ -25,8 +25,15 @@ I'm a full stack developer...
 ## Documentation
 
 [Documentation](https://tailwindcss.com/)
+[Documentation](https://google.com/)
+[Documentation](https://github.com/)
+[Documentation](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+[Documentation](https://developer.mozilla.org/fr)
 
-## 🛠 Skills
+# CSS
 
- HTML, CSS
+- FLexbox.
+- Grid 
+
+# HTML
 
