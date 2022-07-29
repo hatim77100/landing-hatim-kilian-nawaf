@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Project portfolio
 
 Based on a wireframe we made a portfolio project.
@@ -29,3 +30,6 @@ I'm a full stack developer...
 
  HTML, CSS
 
+=======
+# nawaf
+>>>>>>> nawaf
